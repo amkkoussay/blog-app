@@ -1,0 +1,32 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# env files (contain secrets)
+/.env*
+!/.env.example
+
+# drizzle
+/drizzle/*.sql
+!/drizzle/meta/**
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# playwright
+/playwright-report/
+/test-results/
